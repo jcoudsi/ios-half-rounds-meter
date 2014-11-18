@@ -27,9 +27,7 @@ To change the color of the round which represents the maximum value.
 
 To change the color of the round which represents the current value.
 
-#### UIColor *backgroundColor (default : white)
-
-To change the background color of the component view.
+In addition, HalfRoundsMeterView inherits from UIView and exposes all its properties and method.
 
 Usage example
 =============
