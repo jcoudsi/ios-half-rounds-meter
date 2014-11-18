@@ -32,6 +32,11 @@ Usage example
 =============
 
 ```objective-c
+
+#import "HalfRoundsMeterView.h"
+
+//Some code
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
