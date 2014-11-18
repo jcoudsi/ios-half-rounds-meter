@@ -1,5 +1,5 @@
-iOS Half Rounds Meter
-=====================
+iOS Half Rounds Meter 1.0
+=========================
 
 A custom meter view wich displays information with two half rounds.
 HalfRoundsMeterView inherits from UIView and exposes all its properties and method.
