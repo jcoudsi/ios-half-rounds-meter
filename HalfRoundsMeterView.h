@@ -9,23 +9,24 @@
 @interface HalfRoundsMeterView : UIView
 
 /**
- * @brief The maximum value of the meter.
+ * @brief The maximum value of the meter (mandatory).
  **/
 @property CGFloat maximumValue;
 
 /**
- * @brief The current value.
+ * @brief The current value (default : 0).
  **/
 @property CGFloat currentValue;
 
 /**
- * @brief The color for the maximum value.
+ * @brief The color for the maximum value (default : grey).
  **/
 @property (nonatomic, strong) UIColor *maximumValueColor;
 
 /**
- * @brief The color for the current value.
+ * @brief The color for the current value (default : red).
  **/
 @property (nonatomic, strong) UIColor *currentValueColor;
+
 
 @end
