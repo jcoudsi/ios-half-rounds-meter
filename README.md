@@ -1,7 +1,8 @@
 iOS Half Rounds Meter
 =====================
 
-A meter wich displays information with two half rounds
+A custom meter view wich displays information with two half rounds.
+HalfRoundsMeterView inherits from UIView and exposes all its properties and method.
 
 Installation
 ============
@@ -26,8 +27,6 @@ To change the color of the round which represents the maximum value.
 #### UIColor *currentValueColor (default : red)
 
 To change the color of the round which represents the current value.
-
-In addition, HalfRoundsMeterView inherits from UIView and exposes all its properties and method.
 
 Usage example
 =============
